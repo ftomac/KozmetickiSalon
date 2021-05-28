@@ -1,0 +1,52 @@
+#header {
+    background: url("../css/imgs/imgg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10%;
+}
+
+.naslov {
+    background-color: black;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.inUse {
+    background-color: #e0675e;
+    opacity: 0.5;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.turnOff {
+    background-color: #f2963a;
+    opacity: 0.5;
+}
+
+.tekst:before {
+    background-color: #d96a0f;
+    color: white;
+    content: "Odgođeno!";
+    font-size: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+}
+
+th {
+    background-color: #588c7e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}

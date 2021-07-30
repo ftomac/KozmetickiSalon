@@ -9,6 +9,7 @@
         <script type="text/javascript" src="assets/JS/lib/jquery-3.4.1.min.js"></script>
         <link rel="stylesheet" href="assets/css/front.css">
         <script type="text/javascript" src="assets/JS/salon.js"></script>
+        <link rel="text/html" src="rezervacija.html">
         <title>Kozmetički salon StudioS</title>
     </head>
 
@@ -32,6 +33,7 @@
 
         $sql = "INSERT INTO Podaci_o_terminima (Ime, Prezime, Brojmobitela, Emailadresa, vUsluge, vPlacanja, DatumTermina) VALUES ('$Ime','$Prezime', '$Brojmobitela', '$Emailadresa', '$vUsluge', '$vPlacanja','$DatumTermina')";
         $insert = $mysqli->query($sql);
+
         ?>
 
 
@@ -39,15 +41,17 @@
             <div class="container">
                 <a href="#" class="navbar-brand"><i class="fas"></i>Kozmetički salon StudioS</a>
                 <li class="nav-item">
-                    <a class="nav-link bg-dark fas" href="../index.html">Početna</a>
-                    <a class="nav-link bg-dark fas" href="../cjenik.html">Cjenik</a>
-                    <a class="nav-link bg-dark fas" href="../prikazBaze.php">Pregled klijenata i termina</a>
+                    <a class="nav-link bg-dark fas" href="../index.html">POČETNA</a>
+                    <a class="nav-link bg-dark fas" href="../cjenik.html">CJENIK</a>
+                    <a class="nav-link bg-dark fas" href="../logout.php">ODJAVA</a>
+                    <a class="nav-link bg-dark fas" href="../prikazBaze.php">PREGLED KLIJENATA I USLUGA</a>
                 </li>
             </div>
         </nav>
 
         <div id="header" class="jumbotron text-center">
             <p class="h1 naslov">Kozmetički salon StudioS</p>
+
         </div>
         <section id="gallery">
             <div class="container">
@@ -55,93 +59,16 @@
                     <div class="col-lg-4 mb-4">
                         <div class="card">
                             <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Termin 1</h5>
+                                <h5 class="card-title">Podaci o terminu</h5>
                                 <p>Korisnik: <span></span></p>
                                 <p>Vrsta usluge: <span></span></p>
                                 <p>Datum termina: <span></span></p>
                                 <p>Vrijeme trajanja usluge: <span></span></p>   <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown -->
                                 <div class="mt-auto tipke">
-                                    <div class="btn btn-outline-success btn-small">Rezerviraj</div>
+                                    <div class="btn btn-outline-success btn-small">Prikaži podatke</div>
                                     <div class="btn btn-outline-danger btn-small" value="true">Makni rezervaciju</div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Termin 2</h5>
-                                <p>Korisnik: <span></span></p>
-                                <p>Vrsta usluge: <span></span></p>
-                                <p>Datum termina: <span></span></p>
-                                <p>Vrijeme trajanja usluge: <span></span></p>   
-                                <div class="mt-auto tipke">
-                                    <div class="btn btn-outline-success btn-small">Rezerviraj</div>
-                                    <div class="btn btn-outline-danger btn-small">Makni rezervaciju</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Termin 3</h5>
-                                <p>Korisnik: <span></span></p>
-                                <p>Vrsta usluge: <span></span></p>
-                                <p>Datum termina: <span></span></p>
-                                <p>Vrijeme trajanja usluge: <span></span></p>  
-                                <div class="mt-auto tipke">
-                                    <div class="btn btn-outline-success btn-small">Rezerviraj</div>
-                                    <div class="btn btn-outline-danger btn-small">Makni rezervaciju</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-lg-4 mb-4">
-                        <div class="card">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Termin 4</h5>
-                                <p>Korisnik: <span></span></p>
-                                <p>Vrsta usluge: <span></span></p>
-                                <p>Datum termina: <span></span></p>
-                                <p>Vrijeme trajanja usluge: <span></span></p>   
-                                <div class="mt-auto tipke">
-                                    <div class="btn btn-outline-success btn-small">Rezerviraj</div>
-                                    <div class="btn btn-outline-danger btn-small">Makni rezervaciju</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Termin 5</h5>
-                                <p>Korisnik: <span></span></p>
-                                <p>Vrsta usluge: <span></span></p>
-                                <p>Datum termina: <span></span></p>
-                                <p>Vrijeme trajanja usluge: <span></span></p>  
-                                <div class="mt-auto tipke">
-                                    <div class="btn btn-outline-success btn-small">Rezerviraj</div>
-                                    <div class="btn btn-outline-danger btn-small">Makni rezervaciju</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Termin 6</h5>
-                                <p>Korisnik: <span></span></p>
-                                <p>Vrsta usluge: <span></span></p>
-                                <p>Datum termina: <span></span></p>
-                                <p>Vrijeme trajanja usluge: <span></span></p>   
-                                <div class="mt-auto tipke">
-                                    <div class="btn btn-outline-success btn-small">Rezerviraj</div>
-                                    <div class="btn btn-outline-danger btn-small">Makni rezervaciju</div>
-                                </div>
                             </div>
                         </div>
                     </div>

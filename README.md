@@ -10,7 +10,7 @@ Opis: Osnovna svrha web aplikacije bila bi  omogućiti korisnicima salona rezerv
 # Instalacija aplikacije
 -potrebno je instalirati XAMPP (basic verzija - mysql, apache i php) https://www.apachefriends.org/download.html
 
--projekt se preuzme s githuba i u folderu u kojem se nalazi se pokrene putem cmd-a, tu se upiše sljedeće: php -S localhost:8000
+-aplikacija se preuzme s githuba i u folderu u kojem se nalazi se pokrene putem cmd-a, tu se upiše sljedeće: php -S localhost:8000
 
 -otvori se u web pregledniku http://localhost:8000/ 
 

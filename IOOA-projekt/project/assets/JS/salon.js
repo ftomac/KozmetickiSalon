@@ -32,20 +32,23 @@ $("#nastavi").on("click", function() {
         localStorage.setItem("DatumterminaKey", Datumtermina);
         var vrPlacanja = $('input[name=vrstaPlacanja]:checked').val()
         localStorage.setItem("vrstaPlacanjaKey", vrPlacanja);
-        window.location.href = '../IOOA-projekt/project/index.html';
+        window.location.href = '../rg/IOOA-projekt/project/rezervacija.html';
     }
 })
+
 
 $(".card").on("click", ".btn-outline-success", function() {
     var toggleCard = $(this).parent().parent();
     var toggleButton = $(this);
     toggleCard.toggleClass("inUse");
     toggleButton.toggleClass("disabled");
-
+   
+    
     $(this).parent().parent().find("span:eq(0)").text(localStorage.getItem("nameKey"));
     $(this).parent().parent().find("span:eq(0)").text(localStorage.getItem("prezimeKey"));
     $(this).parent().parent().find("span:eq(1)").text(localStorage.getItem("vrUslugeKey"));
     $(this).parent().parent().find("span:eq(2)").text(localStorage.getItem("DatumterminaKey"));
+
 
 
     var brojac = $(this).parent().parent().find("span:eq(3)");
@@ -98,7 +101,7 @@ $(".btn-outline-danger").on("click", function(){
         $(this).parent().parent().toggleClass("Makni");
         $(this).parent().parent().toggleClass("tekst");
         $(this).parent().find(".btn-outline-success").toggleClass("disabled");
-        if($(this).text() == "Makni"){
+        if($(this).text() == "Sakri"){
             $(this).text("Odabrano");
         }else{
             $(this).text("Makni")

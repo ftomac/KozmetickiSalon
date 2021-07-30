@@ -53,7 +53,26 @@ tr:nth-child(even) {
     background-color: #f2f2f2
 }
 
+.container {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+    height: 100%;
+    font-size: 25px;
 
+}
+#aboutus {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: #ffffff;
+  opacity:60%;
+  padding: 20px 15px 20px 15px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
 
 .h1{
     font-size: 50px;

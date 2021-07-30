@@ -3,6 +3,6 @@ Naziv projekta: Web aplikacija kozmetičkog salona
 
 Članovi tima: Fani Tomac
 
-Opis: Osnovna svrha web aplikacije bila bi  omogućiti korisnicima salona rezervaciju termina u kozmetičkom salonu. Kako bi korisnik mogao rezervirati odgovarajući termin, potrebno je registrirati se u web aplikaciji (ime, prezime, broj mobitela, mail..). Nakon registracije korisnik ima mogućnosti odabira usluge – trajni lak, gel, masaža i slično. 
+Opis: Osnovna svrha web aplikacije bila bi  omogućiti korisnicima salona rezervaciju termina u kozmetičkom salonu. Kako bi korisnik mogao rezervirati odgovarajući termin, potrebno je registrirati se  (ili ukoliko je već registriran - prijaviti) u web aplikaciji te ispuniti formu za rezervaciju termina (ime, prezime, broj mobitela, email,vrsta usluge, datum termina itd..). Nakon toga, ima opciju pregleda rezerviranog termina.
 
-Prilikom odabira termina ograničilo bi se da se termini ne poklapaju. Korisnik može otkazati termin ili ga promijeniti ukoliko je idući željeni termin slobodan. Ova aplikacija bi voditeljima salona olakšala evidenciju naručenih klijenata i njihovih termina. 
+ Ova aplikacija bi djelatnicima kozmetičkog salona olakšala evidenciju naručenih klijenata i njihovih termina. 

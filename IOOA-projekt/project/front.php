@@ -33,6 +33,8 @@
 
         $sql = "INSERT INTO Podaci_o_terminima (Ime, Prezime, Brojmobitela, Emailadresa, vUsluge, vPlacanja, DatumTermina) VALUES ('$Ime','$Prezime', '$Brojmobitela', '$Emailadresa', '$vUsluge', '$vPlacanja','$DatumTermina')";
         $insert = $mysqli->query($sql);
+        
+        
 
         ?>
 

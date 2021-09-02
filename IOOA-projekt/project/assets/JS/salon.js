@@ -32,7 +32,7 @@ $("#nastavi").on("click", function() {
         localStorage.setItem("DatumterminaKey", Datumtermina);
         var vrPlacanja = $('input[name=vrstaPlacanja]:checked').val()
         localStorage.setItem("vrstaPlacanjaKey", vrPlacanja);
-        window.location.href = '../rg/IOOA-projekt/project/rezervacija.html';
+        window.location.href = '../IOOA-projekt/project/rezervacija.html';
     }
 })
 
@@ -57,21 +57,21 @@ $(".card").on("click", ".btn-outline-success", function() {
         odabrana = masaza_cijelog_tijela;
     }else if (localStorage.getItem("vrUslugeKey") === "Profesionalno sminkanje"){
         odabrana = profesionalno_sminkanje;
-    }else if (localStorage.getItem("vrUslugeKey") === "Test"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Test"){ 
         odabrana = test;
-    }else if (localStorage.getItem("vrUslugeKey") === "Masaza leda"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Masaza leda"){ 
         odabrana = masaza_leda;
-    }else if (localStorage.getItem("vrUslugeKey") === "Masaza lica"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Masaza lica"){ 
         odabrana = masaza_lica;
-    }else if (localStorage.getItem("vrUslugeKey") === "Pedikura"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Pedikura"){ 
         odabrana = pedikura;
-    }else if (localStorage.getItem("vrUslugeKey") === "Manikura"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Manikura"){ 
         odabrana = manikura;
-    }else if (localStorage.getItem("vrUslugeKey") === "Umjetni nokti"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Umjetni nokti"){
         odabrana = umjetni_nokti;
-    }else if (localStorage.getItem("vrUslugeKey") === "Trajni lak"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Trajni lak"){ 
         odabrana = trajni_lak;
-    }else if (localStorage.getItem("vrUslugeKey") === "Ugradnja trepavica"){ //dodao za test
+    }else if (localStorage.getItem("vrUslugeKey") === "Ugradnja trepavica"){ 
         odabrana = ugradnja_trepavica;
     }else {
 

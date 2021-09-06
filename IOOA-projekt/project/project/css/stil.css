@@ -1,0 +1,49 @@
+
+
+.naslov {
+    background-color: black;
+    color: #fff;
+    opacity: 0.6;
+    position: center;
+}
+
+.inUse {
+    background-color: #e0675e;
+    opacity: 0.5;
+    position: center;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.turnOff {
+    background-color: #f2963a;
+    opacity: 0.5;
+}
+
+.tekst:before {
+    background-color: #d96a0f;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    position: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.h1{
+    font-size: 50px;
+}

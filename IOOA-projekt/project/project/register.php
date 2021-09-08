@@ -1,6 +1,4 @@
-
 <!DOCTYPE html>   
-<html lang="en">
     <html>
         <head>
             <meta charset="UTF-8">
@@ -20,7 +18,6 @@
 
                     </li>
                 </div>
-
             </nav>
             <div id="header" class="jumbotron text-center">
                 <p class="h1 naslov">Kozmetički salon StudioS</p>
@@ -33,4 +30,5 @@
                 </form>
             </div>
         </head>
-        </html>
+    </html>
+    

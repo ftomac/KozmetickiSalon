@@ -32,8 +32,4 @@
                     <p><input type="submit" /></p>
                 </form>
             </div>
-        </head><html>
-        <head>
-            <title>Registration Page</title>
-        </head>
         </html>

@@ -33,12 +33,4 @@
                 </form>
             </div>
         </head>
-        <body>
-            <head>
-                <title>Login Page</title>
-
-
-            </head>
-        </body>
-
     </html>

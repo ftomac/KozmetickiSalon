@@ -19,6 +19,8 @@
                     </li>
                 </div>
             </nav>
+        </head>
+        <body>
             <div id="header" class="jumbotron text-center">
                 <p class="h1 naslov">Kozmetički salon StudioS</p>
                 <form action="registerAction.php" method="POST">
@@ -29,6 +31,6 @@
                     <p><input type="submit" /></p>
                 </form>
             </div>
-        </head>
+        </body>
     </html>
     
